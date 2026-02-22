@@ -11,8 +11,9 @@ const projectRoutes = require('./routes/projectRoutes');
 const app = express();
 
 // Enable CORS for both frontend dev ports
+// Update the following line with your EC2 public IP (e.g., 'http://<EC2_PUBLIC_IP>:3000')
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:4000'],
+  origin: ['http://184.73.14.231:3000'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type']
