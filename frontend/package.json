@@ -1,4 +1,5 @@
 {
+  "homepage": "/admin",
   "name": "frontend",
   "proxy": "http://184.73.14.231:4000",
   "version": "0.1.0",
